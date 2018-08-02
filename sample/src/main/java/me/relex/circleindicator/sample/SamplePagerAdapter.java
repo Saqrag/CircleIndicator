@@ -14,7 +14,7 @@ public class SamplePagerAdapter extends PagerAdapter {
     private int mSize;
 
     public SamplePagerAdapter() {
-        mSize = 5;
+        mSize = 30;
     }
 
     public SamplePagerAdapter(int count) {
