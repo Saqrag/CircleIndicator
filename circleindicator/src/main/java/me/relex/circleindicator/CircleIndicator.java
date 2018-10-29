@@ -164,6 +164,10 @@ public class CircleIndicator extends LinearLayout {
         return animatorIn;
     }
 
+    public void setMaxIndicatorCount(int count) {
+        mMaxIndicatorCount = count;
+    }
+
     public void setViewPager(ViewPager viewPager) {
         mViewpager = viewPager;
         if (mViewpager != null && mViewpager.getAdapter() != null) {
